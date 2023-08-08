@@ -15,7 +15,8 @@ export const Home = () => {
     { id: 3, src: casa3, alt: 'Casa 3' },
   ];
   return (
-    <div className="container bg-">
+    
+    <div className="container bg text-primary">
       <Header/>
 
 
@@ -56,6 +57,7 @@ export const Home = () => {
                 /> */}
             </div>
       </div>
+      
       <Footer/>
     </div>
     

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-light">
+        <footer className="bg-dark rounded text-light mt-5 mb-2">
           <div className="container py-5">
             <div className="row">
               <div className="col-md-4">
@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="col-md-4">
                 <h4>Síguenos en redes sociales</h4>
                 <div className="social-icons">
-                  <a href="" className="text-light me-3"><i className="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/angel.landeros.37669?mibextid=b06tZ0" className="text-light me-3"><i className="fab fa-facebook-f"></i></a>
                   <a href="#" className="text-light me-3"><i className="fab fa-twitter"></i></a>
                   <a href="#" className="text-light me-3"><i className="fab fa-instagram"></i></a>
                 </div>

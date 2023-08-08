@@ -17,7 +17,7 @@ const ObtenerClientes = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container mt-5">
   <div className="card bg-dark text-white">
     <div className="card-header bg-primary">
       <h2>Clientes</h2>

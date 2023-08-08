@@ -39,9 +39,13 @@ function App() {
   ]);
 
   return (
-    <div class="container">
+    <div class="bg-gray-100">
+
+<div class="container bg">
       <div class="row">
       <RouterProvider router={router} />
+    </div>
+    
         {/* <div class="col-md-12">
           <div class="card">
             <div class="card-body bg-danger">
